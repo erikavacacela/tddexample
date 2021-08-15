@@ -56,11 +56,11 @@ public class StackTest {
         stack.push(new Element("4"));
         stack.push(new Element("5"));
 
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
+        assertEquals("5", stack.pop().getValue());
+        assertEquals("4", stack.pop().getValue());
+        assertEquals("3", stack.pop().getValue());
+        assertEquals("2", stack.pop().getValue());
+        assertEquals("1", stack.pop().getValue());
     }
 
 }
