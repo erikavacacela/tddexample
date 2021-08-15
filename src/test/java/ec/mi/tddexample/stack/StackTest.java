@@ -1,4 +1,4 @@
-package ec.mi.tddexample;
+package ec.mi.tddexample.stack;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
